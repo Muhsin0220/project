@@ -17,18 +17,28 @@
 
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Kalam&family=Roboto&family=Six+Caps&display=swap');
+        #h1 {
+            font-family: 'Cinzel', serif;
+        }
         #a {
             font-size: large;
             font-weight: 500;
             font-family: 'Kalam', cursive;
         }
-        #h1 {
-            font-family: 'Six Caps', sans-serif;
+        #i2 {
+            font-size: 30px;
+            padding-left: 25px;
+        }
+        @media (max-width:700px) {
+#i2 {
+    font-size: 20px;
+    padding-left: 12px;
+}
         }
     </style>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-secondary sticky-top">
+    <nav class="navbar navbar-expand-lg bg-secondary sticky-top" style="border-radius: 5px;">
         <div class="container">
             <a class="navbar-brand text-white" href="#"><img src="./images/logo1.png" alt="" width="100" height="50"
                     class="mt-1" id="col-1"></a>
@@ -40,13 +50,13 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active text-light" aria-current="page" href="./index.html" id="a">Home</a>
+                        <a class="nav-link active text-light" aria-current="page" href="./index" id="a">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="./index.html" id="a">About</a>
+                        <a class="nav-link text-light" href="#about" id="a">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-light" href="./index.html" id="a">Services</a>
+                        <a class="nav-link text-light" href="#service" id="a">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-light" href="./skills.html" id="a">Skills</a>
@@ -71,7 +81,8 @@
                         <div class="card-body">
                           <h5 class="card-title">Luminar Technolab</h5>
                           <p class="card-text">A Responsible Website of Lumminar Technolab Kakkanad Kochi.</p>
-                          <a href="https://muhsin0220.github.io/Project5/" class="btn btn-primary">View</a>
+                          <a href="https://muhsin0220.github.io/Project5/" class="btn btn-primary">View More</a>
+                          <a id="i2" href="https://www.youtube.com/@22-muhsin_"><i class="fa-brands fa-youtube" style="color: red;"></i></a>
                         </div>
                       </div>
                 </div>
@@ -81,7 +92,8 @@
                         <div class="card-body">
                           <h5 class="card-title">Magic Interior</h5>
                           <p class="card-text">A Responsible Website of Magi Interior kizhisseri Malappuram.</p>
-                          <a href="https://muhsin0220.github.io/project2/" class="btn btn-primary">View</a>
+                          <a href="https://muhsin0220.github.io/project2/" class="btn btn-primary">View More</a>
+                          <a id="i2" href="https://www.youtube.com/@22-muhsin_"><i class="fa-brands fa-youtube" style="color: red;"></i></a>
                         </div>
                       </div>
                 </div>
@@ -118,10 +130,10 @@
                     data-bs-target="#exampleModal">
                     Contact Me
                 </button><br>
-                <a style="text-decoration: none;" class="text-secondary p-3" aria-current="page" href="./index.html"
+                <a style="text-decoration: none;" class="text-secondary p-3" aria-current="page" href="#home"
                     id="a">Home</a>
-                <a style="text-decoration: none;" class="text-secondary p-3" href="./index.html" id="a">About</a>
-                <a style="text-decoration: none;" class="text-secondary p-3" href="./index.html" id="a">Services</a>
+                <a style="text-decoration: none;" class="text-secondary p-3" href="#about" id="a">About</a>
+                <a style="text-decoration: none;" class="text-secondary p-3" href="#service" id="a">Services</a>
                 <p class="text-light">© Developed By <a href="https://mail.google.com/mail/compose=new"
                         class="text-primary">muhsin</a></p>
             </div>

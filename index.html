@@ -17,25 +17,27 @@
     <script src="https://kit.fontawesome.com/607b924a08.js" crossorigin="anonymous"></script>
 
     <style>
-        @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Kalam&family=Roboto&family=Six+Caps&display=swap');
-
+        @import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Audiowide&family=Cinzel&family=Kalam&family=Roboto&family=Vollkorn+SC&family=Six+Caps&display=swap');
+        #h1 {
+            /* font-family: 'Six Caps', sans-serif; */
+            font-family: 'Cinzel', serif;
+        }
         #a {
             font-size: large;
             font-weight: 500;
             font-family: 'Kalam', cursive;
         }
-
-        .cont {
-            width: 100%;
-            height: 750px;
+        .carohead {
+            font-size: 100px;
+            color: white;
+            font-family: 'Vollkorn SC', serif;
         }
-
         .carop {
             font-size: 15px;
             font-weight: 600;
             color: white;
+            font-family: 'Cinzel', serif;
         }
-
         .b1 {
             font-weight: 500;
             font-family: 'Roboto', sans-serif;
@@ -65,56 +67,18 @@
             color: black;
             border-color: black;
         }
-
         #i2 {
             font-size: 30px;
             padding-left: 25px;
         }
 
-        .carohead {
-            font-size: 100px;
-            color: white;
-        }
-
         #im2 {
-            height: 550px;
             width: 100%;
-            margin-top: 15px;
-            margin-bottom: 15px;
-            border-radius: 15px;
+            border-radius: 65px;
         }
-
         .card-img-top {
             height: 300px;
         }
-
-        @media (max-width:700px) {
-
-            .carohead {
-                font-size: 25px;
-            }
-
-            .carop {
-                font-size: 10px;
-            }
-
-            #im1 {
-                height: 100px;
-                width: 100px;
-            }
-
-            #i2 {
-                font-size: 15px;
-                padding-left: 12px;
-            }
-
-            .cont {
-                width: 100%;
-                height: 350px;
-            }
-
-        }
-
         .card {
             transition-duration: 1s;
         }
@@ -123,15 +87,29 @@
             box-shadow: 0 0 20px 0px rgba(117, 83, 83, 0.877);
             transform: translateY(-10px);
         }
+        @media (max-width:700px) {
 
-        #h1 {
-            font-family: 'Six Caps', sans-serif;
-        }
+.carohead {
+    font-size: 30px;
+}
+
+.carop {
+    font-size: 15px;
+}
+#i2 {
+    font-size: 20px;
+    padding-left: 12px;
+}
+#ap{
+    font-size: small;
+}
+
+}
     </style>
-
 </head>
 
 <body>
+
     <nav class="navbar navbar-expand-lg bg-secondary sticky-top">
         <div class="container">
             <a class="navbar-brand text-white" href="#"><img src="./images/logo1.png" alt="" width="100" height="50"
@@ -142,6 +120,8 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <a class="nav-link active text-light" aria-current="page" href="#home" id="a">Home</a>
@@ -165,177 +145,165 @@
             </div>
         </div>
     </nav>
+    <div class="container-fluid w-100 p-5"
+    style="background-image: linear-gradient(to top left, rgba(54, 40, 40, 0.479),rgba(107, 143, 138, 0.499)); border-top-right-radius: 15px; border-top-left-radius: 15px;">
+    
+    
     <section id="home">
-        <div class="cont" style="background-image: linear-gradient(rgba(151, 140, 140, 0.477),rgba(97, 109, 101, 0.499)); border-top-right-radius: 15px; border-top-left-radius: 15px;">
-            <div class="container">
-                <div class="text-center mb-5">
-                    <img id="im1" src="./images/myimage.jpg" class="mt-5 mb-5" alt="..."
-                        style="border-radius: 50%; border: solid 2px rgba(158, 177, 233, 0.595);">
-                    <h1 class="carohead">I'm Muhsin</h1>
-                    <p class="carop">Python Django Full Stack Developer</p>
-                    <a href="https://drive.google.com/file/d/1L36Ban7hPtDHftMuz0G26fv2yKci2zI6/view"><button id="b2"
-                            type="button" class="b1 rounded-pill">Download CV</button></a>
-                    <a href="tel:702-539-0692"><button id="b3" type="button" class="b1 rounded-pill">Contact
-                            Me</button></a>
-                    <div class="mt-3 mb-5">
-                        <a id="i2" href="https://github.com/Muhsin0220"><i class="fa-brands fa-github" style="color: black;"></i></a>
-                        <a id="i2" href="https://twitter.com/MUHSIN_22_"><i class="fa-brands fa-twitter"></i></a>
-                        <a id="i2" href="https://www.facebook.com/profile.php?id=100090596528386"><i class="fa-brands fa-facebook" style="color: blue;"></i></a>
-                        <a id="i2" href="https://www.linkedin.com/in/muhsin-puliyakodan-7a1b10250/"><i class="fa-brands fa-linkedin" style="color: rgb(45, 45, 89);"></i></a>
-                        <a id="i2" href="https://www.instagram.com/muhsin.puliyakodan/"><i class="fa-brands fa-instagram" style="color: rgba(242, 68, 9, 0.848);"></i></a>
-                        <a id="i2" href="https://www.youtube.com/@22-muhsin_"><i class="fa-brands fa-youtube" style="color: red;"></i></a>
+
+        
+            <div class="row">
+                <div class="col-lg-6 mt-5">
+
+                    <div class="text-center p-5">
+                        <h1 class="carohead">Hi</h1>
+                        <h2 class="carohead">I'm Muhsin</h2>
+                        <p class="carop">Python Django Full Stack Developer</p>
                     </div>
                 </div>
-            </div>
-        </div>
+                    <div class="col-lg-6 ">
+                        <div class="text-center">
+                            <img src="./images/muhsin.png"alt="..." style="width: 75%; border-radius: 50%;" class="bg-light">
+                          </div>
+                    </div>
+                    <div class="text-center mt-5 mb-5">
+                        <div>
+                            <a href="https://drive.google.com/file/d/1L36Ban7hPtDHftMuz0G26fv2yKci2zI6/view"><button id="b2"
+                                type="button" class="b1 rounded-pill">Download CV</button></a>
+                        <a href="tel:+91702-539-0692"><button id="b3" type="button" class="b1 rounded-pill">Contact
+                                Me</button></a>
+                        </div>
+                        <div id="about" class="mt-4">
+                        <a id="i2" href="https://github.com/Muhsin0220"><i class="fa-brands fa-github"
+                                style="color: black;"></i></a>
+                        <a id="i2" href="https://twitter.com/MUHSIN_22_"><i class="fa-brands fa-twitter"></i></a>
+                        <a id="i2" href="https://www.facebook.com/profile.php?id=100090596528386"><i
+                                class="fa-brands fa-facebook" style="color: blue;"></i></a>
+                        <a id="i2" href="https://www.linkedin.com/in/muhsin-puliyakodan-7a1b10250/"><i
+                                class="fa-brands fa-linkedin" style="color: rgb(45, 45, 89);"></i></a>
+                        <a id="i2" href="https://www.instagram.com/muhsin.puliyakodan/"><i
+                                class="fa-brands fa-instagram" style="color: rgba(242, 68, 9, 0.848);"></i></a>
+                        <a id="i2" href="https://www.youtube.com/@22-muhsin_"><i class="fa-brands fa-youtube"
+                                style="color: red;"></i></a>
+                            </div>
+                    </div>
+                </div>
     </section>
 
-
-    <section id="about">
-        <div class="container-fluid text-center" style="background-image: linear-gradient(rgba(28, 29, 31, 0.652),rgba(255, 255, 255, 0.707));">
-            <div class="container pt-5 pb-5">
-                <div class="p-5">
+    <section >
+            <div class="container">
+                <div class="text-center">
                     <h1 id="h1" class="text-light">ABOUT ME</h1>
                 </div>
                 <div id="c1" class="row mt-5" style="background-color: rgba(84, 78, 78, 0.432); border-radius: 10px;">
-                    <div class="col-lg-5 col-md-12 col-sm-12 p-5">
-                        <img src="./images/my2.jpg" alt="" id="im2">
+                    <div class="col-lg-5 col-md-12 col-sm-12">
+                        <img src="./images/myimage.jpg" alt="" id="im2" class="p-5 ">
                     </div>
                     <div class="col-lg-7 col-md-12 col-sm-12 text-white">
-                        <p class="p-5" style=" font-weight: 500; text-align:justify;">I'm a Web Developer and Designer
-                            with
-                            over 6 Month
-                            Experience developing and deployingdynamic and scalable web applications using Python,
-                            Django,JavaScript, HTML, CSS, and various front-end and back-end frameworks.Proficient in
-                            integrating web applications with databases MySQL.I'm also have basic skills in Hardware
-                            Networking and Configuration Now iam eargerly learn Django and i look forward to work with
-                            an
-                            organization which offers a challenging opportunity to enhance my knowledge skills and
-                            experience that would allow me to contribute towards achieving the organizational goal to
-                            the
-                            best of my potential. Iam an aspiring programmer,getting trained by Luminar Technolab.I have
-                            strong technical skillsparticularly in Python basics,HTML,CSS,Bootstrap,Git. Now iam
-                            eargerly
-                            learn Django and i look forward to work with an organization which offers a challenging
-                            opportunity to enhance my knowledge skills and experience that would allow me to contribute
-                            towards achieving the organizational goal to the best of my potential. Iam an aspiring
-                            programmer,getting trained by Luminar Technolab.I have strong technical skillsparticularly
-                            in
-                            Python basics,HTML,CSS,Bootstrap,Git. Now iam eargerly learn Django and i look forward to
-                            work
-                            with an organization which offers a challenging opportunity to enhance my knowledge skills
-                            and
-                            experience that would allow me to contribute towards achieving the organizational goal to
-                            the
-                            best of my potential</p>
+                        <p class="p-5" style=" font-weight: 500; text-align:justify; " id="ap">I'm a Web Developer and Designer with over 6 Month Experience developing and deployingdynamic and scalable web applications using Python, Django, JavaScript, HTML, CSS, and various front-end and back-end frameworks.Proficient in integrating web applications with databases MySQL.I'm also have basic skills in Hardware Networking and Configuration Now iam eargerly learn Django and i look forward to work with an organization which offers a challenging opportunity to enhance my knowledge skills and experience that would allow me to contribute towards achieving the organizational goal to the best of my potential. Iam an aspiring programmer, getting trained by Luminar Technolab.I have strong technical skillsparticularly in Python basics, HTML, CSS, Bootstrap, Git. Now iam eargerly learn Django and i look forward to work with an organization which offers a challenging opportunity to enhance my knowledge skills and experience that would allow me to contribute towards achieving the organizational goal to the best of my potential. Iam an aspiring programmer, getting trained by Luminar Technolab.I have strong technical skillsparticularly in Python basics, HTML, CSS, Bootstrap, Git. Now iam eargerly learn Django and i look forward to work with an organization which offers a challenging opportunity to enhance my knowledge skills and experience that would allow me to contribute towards achieving the organizational goal to the <span id="service"></span> best of my potential</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+    </section >
 
     <section id="service">
-        <div class="container ">
-        <div class="row p-5 g-5">
-            <div class="p-5">
+        <div class="row">
+            <div class="pt-5">
                 <h1 id="h1" class="text-center">SERVICES</h1>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 ">
+            <div class="col-lg-4 col-md-6 col-sm-12 p-5 ">
                 <div class="card" style="width: 100%;">
                     <img src="./images/python.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Web Design</h5>
-                        <p class="card-text">We Design Frontend and Backend of Website using Python and Django.</p>
+                        <p class="card-text">Design Frontend and Backend of Website using Python and Django Framework.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 ">
+            <div class="col-lg-4 col-md-6 col-sm-12 p-5">
                 <div class="card" style="width: 100%;">
-                    <img src="images/graphic.jpg" class="card-img-top" alt="...">
+                    <img src="images/hardware.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h5 class="card-title">Graphic Desing</h5>
-                        <p class="card-text">We have knowledge in Graphic Designing like logo design.</p>
+                        <h5 class="card-title">Networking</h5>
+                        <p class="card-text">Design and install well-functioning computer networks, connections and cabling.</p>
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 ">
+            <div class="col-lg-4 col-md-6 col-sm-12 p-5">
                 <div class="card" style="width: 100%;">
                     <img src="./images/android.png" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">Android Development</h5>
-                        <p class="card-text">We Develop Dynamic Android application using Java.</p>
+                        <p class="card-text">Designing and developing advanced applications for the Android platform.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-
-    </section>
-    <section id="contact">
-        <div class="container-fluid w-100">
-        <div id="c1" class="row bg-dark mt-5 p-5" style="border-bottom-right-radius: 15px; border-bottom-left-radius: 15px;">
-            <div class="text-center">
-                <h1 id="h1" class="text-light">Contact</h1>
-                <div class="content text-light">
-                    <div class="Name">
-                        <i class="fa-solid fa-user"></i>
-                        <span class="text">Muhsin Puliyakodan</span>
-                    </div>
-                    <div class="place">
-                        <i class="fa fa-map-marker"></i>
-                        <span class="text">Naduthodiyil(H)Morayur<br>Malappuram, Kerala</span>
-                    </div>
-                    <div class="phone">
-                        <i class="fa fa-phone"></i>
-                        <span class="text">+91-7025390692</span>
-                    </div>
-                    <div class="place">
-                        <i class="fa fa-envelope"></i>
-                        <span class="text">muhsinpmoosi2305@gmail.com</span>
-                    </div>
+    </section>    
+</div>
+<section id="contact">
+    <div class="container-fluid w-100">
+    <div id="c1" class="row bg-dark p-5" style="border-bottom-right-radius: 15px; border-bottom-left-radius: 15px;">
+        <div class="text-center">
+            <h1 id="h1" class="text-light">Contact</h1>
+            <div class="content text-light">
+                <div class="Name">
+                    <i class="fa-solid fa-user"></i>
+                    <span class="text">Muhsin Puliyakodan</span>
                 </div>
-                <button type="button" class="btn btn-danger mt-3 mb-3" data-bs-toggle="modal"
-                    data-bs-target="#exampleModal">
-                    Contact Me
-                </button><br>
-                <a style="text-decoration: none;" class="text-secondary p-3" aria-current="page" href="#home"
-                    id="a">Home</a>
-                <a style="text-decoration: none;" class="text-secondary p-3" href="#about" id="a">About</a>
-                <a style="text-decoration: none;" class="text-secondary p-3" href="#service" id="a">Services</a>
-                <p class="text-light">© Developed By <a href="https://mail.google.com/mail/compose=new"
-                        class="text-primary">muhsin</a></p>
+                <div class="place">
+                    <i class="fa fa-map-marker"></i>
+                    <span class="text">Naduthodiyil(H)Morayur<br>Malappuram, Kerala</span>
+                </div>
+                <div class="phone">
+                    <i class="fa fa-phone"></i>
+                    <span class="text">+91-7025390692</span>
+                </div>
+                <div class="place">
+                    <i class="fa fa-envelope"></i>
+                    <span class="text">muhsinpmoosi2305@gmail.com</span>
+                </div>
             </div>
+            <button type="button" class="btn btn-danger mt-3 mb-3" data-bs-toggle="modal"
+                data-bs-target="#exampleModal">
+                Contact Me
+            </button><br>
+            <a style="text-decoration: none;" class="text-secondary p-3" aria-current="page" href="#home"
+                id="a">Home</a>
+            <a style="text-decoration: none;" class="text-secondary p-3" href="#about" id="a">About</a>
+            <a style="text-decoration: none;" class="text-secondary p-3" href="#service" id="a">Services</a>
+            <p class="text-light">© Developed By <a href="https://mail.google.com/mail/compose=new"
+                    class="text-primary">muhsin</a></p>
         </div>
-    </section>
-    <!-- Modal -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content container">
-                <div class="modal-header ms-5">
-                    <h1 class="modal-title fs-5 mt-5 " style="font-weight: 700;" id="exampleModalLabel">Leave me a
-                        Message</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+</section>
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content container">
+            <div class="modal-header ms-5">
+                <h1 class="modal-title fs-5 mt-5 " style="font-weight: 700;" id="exampleModalLabel">Leave me a
+                    Message</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body ms-5 ">
+                <input type="text" style="border: none;" placeholder="Name" class="form-control">
+                <hr>
+                <input type="text" style="border: none;" placeholder="Email" class="form-control">
+                <hr>
+                <textarea name="" id="" class="form-control" cols="30" rows="3" placeholder="Comment"></textarea>
+                <hr>
+                <div class="form-check">
+                    <input class="form-check-input border-primary" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                        Check me out
+                    </label>
                 </div>
-                <div class="modal-body ms-5 ">
-                    <input type="text" style="border: none;" placeholder="Name" class="form-control">
-                    <hr>
-                    <input type="text" style="border: none;" placeholder="Email" class="form-control">
-                    <hr>
-                    <textarea name="" id="" class="form-control" cols="30" rows="3" placeholder="Comment"></textarea>
-                    <hr>
-                    <div class="form-check">
-                        <input class="form-check-input border-primary" type="checkbox" value="" id="flexCheckDefault">
-                        <label class="form-check-label" for="flexCheckDefault">
-                            Check me out
-                        </label>
-                    </div>
-                    <button type="button" class="btn btn-primary mt-5">Submit</button>
-                </div>
+                <button type="button" class="btn btn-primary mt-5">Submit</button>
             </div>
         </div>
     </div>
-
-
+</div>
 </body>
 
 </html>
